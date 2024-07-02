@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="OHM.js"></script>
+    <title>CalculadoraOhm</title>
+</head>
+<body>
+    <h1>Calculado de Ohm!</h1>
+     <hr>
+     <br><br>
+     <label for="tensao">Tensão: </label>
+     <input type="text" id="tensao">
+     <br><br>
+     <label for="corrente">Corrente: </label>
+     <input type="text" id="corrente">
+     <input type="checkbox" id="miliamp" value="miliamperes">
+     <label for="miliamp">Miliamperes</label>
+     <br><br>
+     <label for="resistencia">Resistência: </label>
+     <input type="text" id="resistencia">
+     <input type="checkbox" id="miliOhms" value="miliohms">
+     <label for="miliohms">MiliOhms</label>
+     <br><br>
+     <button onclick="calcula()">calcular</button>
+     <br><br>
+     <h1 id="resultado"></h1>
+</body>
+</html>
